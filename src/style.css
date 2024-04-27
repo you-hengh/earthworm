@@ -42,6 +42,11 @@ html {
   --color-icon-info: rgb(192 132 252);
   --color-text-p-info:var(--color-text);
   --color-icon-border-info:rgb(209, 213, 219);
+  --color-text-p-userfeed:rgb(55 65 81);
+  --color-a-userfeed:rgb(59 130 246);
+  --color-card-shadow-userfeed:rgba(168,85,247,.5);
+  --color-svg-userfeed:rgb(249 168 212);
+  --color-like-userfeed:var(--color-text)
   --color-icon-fill: #000;
   --background-color: #fff;
   background: var(--background-color);
@@ -55,7 +60,12 @@ html {
   --color-text-info:var(--color-text)
   --color-icon-info: rgb(190 166 255);
   --color-text-p-info:var(--color-text-header);
-  --color-icon-border-info:rgb(31 41 55);;
+  --color-icon-border-info:rgb(31 41 55);
+  --color-text-p-userfeed:(--color-text);
+  --color-a-userfeed:rgb(96 165 250);
+  --color-card-shadow-userfeed:rgba(96,165,250,.5);
+  --color-svg-userfeed:rgb(147 197 253);
+  --color-like-userfeed:rgb(156 163 175);
   --color-icon-fill: #fff;
   --background-color: rgb(5, 5, 29);
 }
